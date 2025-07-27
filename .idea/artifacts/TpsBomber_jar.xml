@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TpsBomber:jar">
+    <output-path>$PROJECT_DIR$/../Plugins</output-path>
+    <root id="archive" name="TpsBomber.jar">
+      <element id="module-output" name="TpsBomber" />
+    </root>
+  </artifact>
+</component>

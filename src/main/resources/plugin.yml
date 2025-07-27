@@ -1,0 +1,12 @@
+name: TpsBomber
+version: 1.0
+main: com.delplayer01.tpsBomber.TpsBomber
+api-version: 1.20
+author: delplayer01
+description: el cabronazo que me robe esto lo demando alv
+
+commands:
+  maps:
+    usage: /maps <map1/map2/map3/map4/map5> start
+    permission: tpsbomber.use
+    permission-message: No tienes permiso para usar este comando.
