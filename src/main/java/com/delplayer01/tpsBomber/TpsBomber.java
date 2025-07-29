@@ -1,5 +1,6 @@
 package com.delplayer01.tpsBomber;
 
+import org.bukkit.command.TabCompleter;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -19,7 +20,7 @@ public class TpsBomber extends JavaPlugin {
         instance = this;
 
         getCommand("maps").setExecutor(new MapsCommand());
-        getCommand("maps").setTabCompleter(new MapsCommand());
+        getCommand("maps").setTabCompleter((TabCompleter) new MapsCommand());
 
         for (int i = 1; i <= 5; i++) {
             File mapFolder = new File(getDataFolder(), "Map" + i);
